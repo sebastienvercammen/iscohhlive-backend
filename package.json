@@ -1,0 +1,27 @@
+{
+  "name": "iscohhlive-backend",
+  "version": "1.0.0",
+  "description": "Event-driven webserver in Node.js for IsCohh.live.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastienvercammen/iscohhlive-backend"
+  },
+  "keywords": [
+    "webserver",
+    "node.js",
+    "iscohh.live"
+  ],
+  "author": "Sébastien Vercammen",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.0",
+    "request": "^2.83.0",
+    "supports-color": "^5.1.0"
+  }
+}
