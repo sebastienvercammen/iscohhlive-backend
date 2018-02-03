@@ -47,6 +47,8 @@ function gotChannelStatus(status) {
         lastResponse.status = 1;
     } else if (status === 'offline') {
         lastResponse.status = 0;
+    } else if (status === 'vodcast') {
+        lastResponse.status = 0; // Only show live.
     } else {
         debug('Unknown channel status: %s.', status);
         lastResponse.status = -1;
