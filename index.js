@@ -192,6 +192,7 @@ function updateTwitchChannelStatus() {
 function main() {
     // Only one request type to handle, yay!
     const server = http.createServer((req, res) => {
+        res.setHeader('Access-Control-Allow-Origin', 'https://iscohh.live');
         res.writeHead(200, { 'Content-Type': 'application/json' });
         return res.end(responseString);
     });
